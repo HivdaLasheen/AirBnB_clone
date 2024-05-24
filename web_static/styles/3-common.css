@@ -32,8 +32,7 @@ footer {
 }
 
 .logo-icon {
-    /* Use background-image to set the icon */
-    background-image: url('../images/logo.png');
+    
     /* Specify width and height of the icon */
     width: 40px;
     height: 40px;
