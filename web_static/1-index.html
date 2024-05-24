@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header and Footer with Style Tag</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #FF0000;
+            height: 70px;
+            width: 100%;
+            text-align: center;
+            line-height: 70px;
+        }
+
+        footer {
+            background-color: #00FF00;
+            height: 60px;
+            width: 100%;
+            text-align: center;
+            line-height: 60px;
+            position: fixed;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <span style="color: white; font-size: 24px;">Header</span>
+    </header>
+
+    <main style="min-height: calc(100vh - 130px);"> <!-- Adjust for footer and header heights -->
+        <!-- Your main content here -->
+    </main>
+
+    <footer>
+        <span style="color: white; font-size: 20px;">Footer</span>
+    </footer>
+</body>
+
+</html>
