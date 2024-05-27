@@ -6,6 +6,11 @@ footer {
     text-align: center;
     line-height: 60px; 
     position: fixed; 
+    padding: 10px;
     bottom: 0;
-    background-color:white;
+    border-top: 1px solid #dddddd;
+    background-color: #f8f8f8;
 }
+footer p {
+	    margin: 0;
+    }
