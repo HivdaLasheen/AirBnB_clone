@@ -37,3 +37,15 @@ You are not allowed to import any files
 No inline styling
 You must use the style tag in the head tag
 The layout must be exactly the same as 0-index.html
+
+
+
+
+Accessibility Enhancements
+Color Contrast: Ensured that text and background colors have sufficient contrast for readability.
+Semantic HTML: Used appropriate HTML tags (h1, h2, h3, ul, li, etc.) to improve the structure and accessibility of the document.
+Focus Styles: Added focus styles for interactive elements (button, input, select, textarea) to improve keyboard accessibility.
+Link Accessibility: Ensured links have distinguishable colors and underlines to indicate their purpose.
+Button Accessibility: Styled buttons to be visually distinct and responsive to user interactions.
+
+
